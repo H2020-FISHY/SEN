@@ -1,0 +1,26 @@
+
+
+$TTL 604800
+@	IN	SOA	ns1.fishy. root.ns1.fishy. (
+				6 ; Serial
+				604820 ; Refresh
+				86600 ; Retry
+				2419600 ; Expire
+				604600 ) ; Negative Cache TTL
+
+;
+@			IN	NS	ns1.fishy.
+ns1			IN	A	10.0.0.22
+
+dns.fishy.		IN	A	10.0.0.22
+api.fishy.		IN	A	10.0.0.22
+
+peer1.ucp.fishy.	IN	A	10.0.0.23
+peer2.ucp.fishy.	IN	A	10.0.0.23
+ca.ucp.fishy.		IN	A	10.0.0.24
+
+orderer1.uco.fishy.	IN	A	10.0.0.23
+ca.uco.fishy.		IN	A	10.0.0.24
+
+ca.tls.fishy.		IN	A	10.0.0.24
+
